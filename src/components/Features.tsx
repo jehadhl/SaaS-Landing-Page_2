@@ -20,7 +20,7 @@ export const Features = () => {
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
     };
-  }, []);
+  }, [offestX, offestY]);
 
   return (
     <section className="bg-black text-white py-[72px] sm:py-24">
